@@ -2,7 +2,7 @@
 .DEFAULT_GOAL := help
 
 analysis:  ## Runs the static code analysis tool
-	-tox -r -elint
+	-tox -r -elint-py2,lint-py3
 
 clean-pyc:  ## Cleans the environment of pyc, pyo and ~ files.
 	find . -name '*.pyc' -exec rm --force {} +

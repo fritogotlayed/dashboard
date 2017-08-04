@@ -100,5 +100,9 @@ ENV/
 # mypy
 .mypy_cache/
 
+# pyCharm
+.idea/
+.project
+
 # lint stuff
 .pylint.d/
